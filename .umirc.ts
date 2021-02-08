@@ -6,4 +6,10 @@ export default defineConfig({
   },
   routes: [{ path: '/', component: '@/pages/index' }],
   fastRefresh: {},
+  base: '/docs/',
+  hash: true,
+  history: {
+    type: 'hash',
+  },
+  publicPath: '/static/',
 });
